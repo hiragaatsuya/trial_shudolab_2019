@@ -50,5 +50,5 @@
 
 
 # その他
-* 質問などあれば，[slack](trial-shudolab-2019.slack.com)へ．
+* 質問などあれば，slackへ．
 
