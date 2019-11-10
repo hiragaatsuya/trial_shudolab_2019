@@ -1,0 +1,53 @@
+\documentclass{ujarticle}
+\usepackage[nosort]{cite}
+\usepackage{geometry}
+\usepackage[dvipdfmx]{graphicx}
+\geometry{left=10mm,right=10mm,top=5mm,bottom=5mm}
+\usepackage{listings}
+
+\title{首藤研究室総合演習：グラフ分野}
+\author{}
+\begin{document}
+\date{}
+\maketitle
+
+\section{概要}
+この総合演習では，グラフサンプリングについて取り扱います．1ヶ月弱と短い期間ですが，研究というものを体験していただきたいと思います．グラフ分野の総合演習は以下の日程と内容で行います．時間は毎回7,8限 (15:05-16:25)です．
+
+\begin{description}
+ \item[第1回] 授業の流れの説明，複雑ネットワークとグラフサンプリングについて説明．
+ 
+ \item[第2回] グラフサンプリングの論文\cite{graphsampling}の輪講
+ 
+  \item[第3回 - 第5回] ソーシャルグラフのノード数とクラスタ係数の推定の論文\cite{hardiman}の輪講
+  
+\end{description}
+
+\section{最終レポート (〆切 1/1 23:59)}
+
+最終レポートには以下の2つの内容を含めてください．
+\begin{enumerate}
+  \item 演習で学んだこと (グラフの統計量やグラフサンプリングのモチベーションやサンプリング手法など)
+  \item 入力をグラフとサンプル数，出力をそのグラフの統計量の推定値とするアルゴリズムの内容と評価実験．
+\end{enumerate}
+
+推定する統計量は以下の2つから1つ選んでください．
+\begin{itemize}
+  \item グラフの全ノード数$N$ (\cite{hardiman}のNeighbor collision手法)
+  \item グラフのローカルクラスタ係数$c_l$とグローバルクラスタ係数$c_g$ (\cite{hardiman}のランダムウォークベースの手法)
+\end{itemize}
+
+評価実験は以下の項目 (追加で考察してもよいです．)について自分なりの考えを述べ，行ってください．
+\begin{itemize}
+\item 推定値の誤差を評価するのに適した評価指標は何か？
+  \item サンプル数はどのくらいまでが現実的か？
+  \item 初期ノードはどのように決めるか？初期ノードによる精度の誤差はどの程度か？
+  \item mixing timeはどのように設定するか？ (グラフのノード数を推定する場合)
+\end{itemize}
+
+考察では，こうすれば\cite{hardiman}の手法よりさらに推定精度が良くなるんじゃないかというアイディアや，逆にここは現実のSNSに適用する上で厳しいんじゃないかなど，何か考えがあれば書いてください．
+
+\bibliographystyle{junsrt}
+\bibliography{reference}
+
+\end{document}
