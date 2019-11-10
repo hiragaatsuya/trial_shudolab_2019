@@ -49,6 +49,6 @@
 		* 12/31: 添削結果を反映させて，最終版を提出する．
 
 
-# 質問など
-質問などあれば，[slack](nakajilab.slack.com)にドシドシ書いてください．
+# その他
+* 質問などあれば，[slack](trial_shudolab_2019.slack.com)へ．
 
