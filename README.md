@@ -15,8 +15,9 @@
 		* 3章のC以外: 事前知識やサンプリング手法の概要．
 	* 12/3  輪講第3回 (伊藤)
 		* 4章: Facebookのグラフデータのサンプリング．
-	* 12/10 輪講第4回 (陳)
-		* 5章の「A」と「CのAdding convergence diagnostics and parallel crawls.」以外: サンプリング手法の比較．
+	* 12/10 輪講第4回 (平賀，伊藤)
+		* 平賀: 5章のAの前のイントロ，B「Unbiased Estimation」
+		* 伊藤: 5章のC「Findings and Practical Recommendations」の「Choosing between methods.」と「MHRW vs. RWRW.」
 	* 12/17 質問，レポート作成の目処を立てる．
 
 # 目的
